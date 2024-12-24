@@ -1,0 +1,531 @@
+{
+    "genel": {
+      "context": "Genel bilgiler",
+      "alt_konular": {
+        "teşekkür ederim": {
+          "keywords": [
+          "teşekkürler", "tesekkurler", "teşekkurler", "tesekkurler", "TEŞEKKÜRLER", "TESEKKURLER", 
+          "TEŞEKKURLER", "teşekkür ederim", "tesekkur ederim", "teşekkur ederim", "tşk", "tsk", 
+          "tşkler", "tskler", "tşkkrler", "Teşekkürler", "Tesekkurler", "tesekkurler", "teşekkurler",
+          "teşekkrler", "tşekkürler", "teşekurler", "tesekürler", "teskkrler", "tşkkrlr",
+          "eyvallah", "Eyvallah", "eyw", "eyv", "EYV", "EYW", "eywalla", "EYWALLAH", "eywllh", "eywlah", 
+          "eywallaah", "eyvllah", "eyvlah", "eyvlh",
+          "sağol", "sagol", "sağ ol", "sag ol", "sağ-ol", "sag-ol", "sağolun", "sagolun", 
+          "sağ olun", "sag olun", "sağ-olun", "sag-olun", "SAĞOL", "SAGOL", "saol", 
+          "Sağ Ol", "Sag Ol", "sğol", "sagl", "sgl",
+          "tamam", "tmm", "tm", "tamamm", "tamamm", "tam", "tamaam", "tamaamm", "tamm", "TAMAM",
+          "TMM", "TM"
+        ],
+          "response": "Rica ederim! Yardımcı olabileceğim başka bir şey var mı?"
+        },
+        "merhaba": {
+          "keywords": [
+          "merhaba", "Merhaba", "MERHABA", "mrb", 
+          "mrh", "mrhb", "mrhaba", "mrba", "merhba", 
+          "merheba", "merahba", "merh", "meh", 
+          "mehaba", "merha", "mrbha", "mrbh"
+      ],
+          "response": "Merhaba! Size nasıl yardımcı olabilirim?"
+        },
+        "yok": {
+          "keywords": [
+          "yok",
+          "yokk",
+          "yoktur",
+          "yokmu",
+          "yoook",
+          "yokk",
+          "yoq",
+          "yokki",
+          "yook",
+          "y0k"
+      ],
+          "response": "Peki, iyi günler. Başka bir sorunuz varsa sormaktan çekinmeyin!"
+        },
+        "naber": {
+          "keywords": [
+          "naber", "Naber", "NABER", "naberr", "naaber", "naaberr",
+          "nbr", "Nbr", "NBR", "naaaber", "nabir", "ne haber", 
+          "Ne haber", "NE HABER", "n'haber", "N'haber", "N'HABER", 
+          "nabey", "nabee", "nabeeer", "nabeyy", "neaberr","nasılsın", "Nasılsın", "NASILSIN", "nasilsin", "Nasil", "nasılsın ya", "nasılsın ki","naber nasılsın", "naber, nasılsın", "Naber nasılsın", "NABER NASILSIN"
+      ],
+          "response": "Gayet iyiyim, teşekkür ederim! Sen nasılsın? 😊 Sana nasıl yardımcı olabilirim?"
+        },
+        "selam": {
+          "keywords": [
+          "selam", "SELAM", "slm", "Selam", "Slm", "salam", "selaam", "salem", "slem",
+          "selm", "salaam", "selaaam", "salaamm", "slmm", "selmm", 
+          "selamlar", "Selamlar", "SELAMLAR", "slmlr", "slmlar",
+          "selamun aleykum", "Selamun Aleykum", "SELAMUN ALEYKUM", 
+          "selamün aleyküm", "Selamün Aleyküm", "SELAMÜN ALEYKÜM",
+          "slmn alykm", "sel alykm", "slm alykm", 
+          "merhaba", "Merhaba", "MERHABA", "mrb", "mrh", "mrba", "meh"
+      ],
+          "response": "Selam! Yardımcı olabileceğim bir konu var mı?"
+        },
+        "hayırlı günler": {
+          "keywords": [
+          "hayırlı günler", "hayirli günler", "hayırlı gunler", "hayirli gunler", "hayırlı gnlr", "hayirli gnlr", 
+          "hayırlıgünler", "hayirligunler", "hayrli günler", "hayrli gunler", "hayırlıgnlr", 
+          "hırlı günler", "hyr günler", "hırlı gunler", "hyr gunler", "hayırlı", "hayrli", "hyrlı gunler",
+          
+          "iyi günler", "iyi gunler", "ii günler", "ii gunler", "iyigünler", "iyigunler",
+          "iy günler", "iy gunler", "i günler", "i gunler", "iygnlr", "iigünler", "ii gunlr",
+          "iyi", "ii", "iyi gnlr", "ii gnlr",
+
+          "günaydın", "gunaydın", "günaydin", "gunaydin", "günaydn", "gunaydn", "gnaydın", 
+          "gnaydin", "günaydınn", "gnydn", "gunaydin", "günaydinn", "gnaydnn", "gunaydin", 
+          "gnydn", "gnydın", "günay", "günayd", "gunayd"
+        ],
+          "response": "Hayırlı günler! Size nasıl yardımcı olabilirim?"
+        },
+        "hayırlı akşamlar": {
+          "keywords": [
+          "hayırlı akşamlar", "Hayırlı Akşamlar", "HAYIRLI AKŞAMLAR", "hayırlı akşmlar", "hayırlı akşmlr", 
+          "hayirli aksamlar", "Hayirli Aksamlar", "HAYIRLI AKSAMLAR", "hayrlı aksamlar", "hayrlı akşmlar", 
+          "iyi akşamlar", "İyi Akşamlar", "İYİ AKŞAMLAR", "iyi akşmlar", "ii akşamlar", "ii akşmlar", 
+          "iyi akşmlr", "iy akşamlar", "iyi aksmlar", "ii aksmlar", "iiyi akşamlar", "iyi akşm"
+      ],
+          "response": "Hayırlı akşamlar! Sorularınızı yanıtlamak için buradayım."
+        },
+        "gorüşürüz": {
+          "keywords": [
+          "görüşürüz", "Görüşürüz", "Gorusuruz", "GÖRÜŞÜRÜZ", "gorusur", "görüsürüz",
+          "hoşçakal", "Hoşçakal", "HOŞÇAKAL", "hoşça kal", "hoşçakıl", "hoscakal", "Hoşça kal",
+          "hoşça kalın", "hoşçakalın", "hosçakalın",
+          "görüşmek üzere", "Görüşmek üzere", "Görüsmek üzere", "görüşmeküzere", "görüşürüz sonra",
+          "görüşmeküzre", "görüşürüz sonra", "görüşmek üzere Allah'a emanet",
+          "allah'a emanet ol", "Allah'a emanet ol", "allah emanet ol", "Allah'a emanet olun", "Allah'a emanet",
+          "emanet ol", "Allah'a emanet olun", "Allah'a emanet kal","bay bay", "Bay Bay", "BAY BAY", "baybay", "bay bay", "bbye", "by by", "bai bai", "bai", "bey bey", 
+          "beybey", "byebye", "byebey", "baiii", "byee", "bıby", "byeeeee", "byyyyyy", "by", "b"
+      ],
+          "response": "Görüşmek üzere, Herhangi bir şey olursa buradayım. 😊"
+        },
+        "günaydın": {
+          "keywords": [
+          "günaydın", "Günaydın", "GUNAYDIN", "GÜNAYDIN", 
+          "günaydınlar", "Günaydınlar", "gunaydin", "Gunaydin", 
+          "GUNAYDIN", "GÜNAYDINLAR", "gunaydinlar", "Gunaydinlar", 
+          "GUNAYDINAR", "günaydin", "günaydn", "günaydınlar", 
+          "gunaydn", "gunaydinlr", "günaaydın", "güünaydın", 
+          "iyi sabahlar", "İyi Sabahlar", "İYİ SABAHLAR", "ii sabahlar", 
+          "iyi sabhlr", "iyi sbahlar", "ii sbahlar", "iiy sabahlar", 
+          "iyi sbhlr", "iyi sabahlarr", "ii sabahlr"
+      ],
+          "response": "Günaydın! Bugün size nasıl yardımcı olabilirim?"
+        },
+        "var": {
+          "keywords": [
+          "var", "VAR", "VAr", "vAr", "evet", "EVET", "Evet", "evvet", "evettt", "evett", "evveet"
+      ],
+          "response": "Buyrun! Sizi dinliyorum."
+        },
+        "iyiyim": {
+          "keywords": [
+          "iyi", "bende iyiyim", "iyiyim", "iyidir", "elhamdulillah", "ıyı", "iyidir", "çok iyi", "idare eder", "mutlu"
+      ],
+          "response": "Harika! İyi olduğuna sevindim.😊 Bugün sana nasıl yardımcı olabilirim? "
+        },
+        "sana bir sorum olacaktı": {
+          "keywords": [
+            "sorum var",
+            "sana bir sorum olacaktı",
+            "sana bir sorum var",
+            "bir şey rica edebilir miyim"
+          ],
+          "response": "Buyrun! Sizi dinliyorum."
+        },
+        "kampüs güvenliği": {
+          "keywords": [
+            "kampüs güvenliği",
+            "güvenlik önlemleri",
+            "üniversite güvenlik",
+            "kampüs güvenlik tedbirleri",
+            "kampüs güvenlik önlemleri"
+          ],
+          "response": "Kampüs güvenliği için güvenlik görevlileri, CCTV kameraları ve giriş-çıkış kontrolleri bulunmaktadır."
+        },
+        "kampüs etkinlikleri": {
+          "keywords": [
+            "kampüs etkinlikleri",
+            "üniversite etkinlik takvimi",
+            "etkinlik duyuruları"
+          ],
+          "response": "Kampüs etkinliklerini üniversitenizin web sitesi, sosyal medya hesapları veya duyuru panolarından takip edebilirsiniz."
+        }
+      }
+    },
+    "mezuniyet": {
+      "context": "Mezuniyetle ilgili bilgiler",
+      "alt_konular": {
+        "transkript nasıl çıkarılır": {
+          "keywords": [
+            "transkript nasıl çıkarılır",
+            "transkript belgesi çıkarma",
+            "transkript almak"
+          ],
+          "response": "Transkript belgenizi öğrenci bilgi sistemi üzerinden online olarak alabilir ya da öğrenci işlerine başvurarak talep edebilirsiniz."
+        },
+        "transkript belgesi talebi": {
+          "keywords": [
+            "transkript nasıl alınır",
+            "transkript başvuru işlemi",
+            "transkript bilgi sistemi"
+          ],
+          "response": "Transkript belgenizi öğrenci bilgi sistemi üzerinden online olarak alabilirsiniz. Onaylı kopyalar için öğrenci işlerine başvurmanız gerekmektedir."
+        },
+        "mezuniyet belgesi": {
+          "keywords": [
+            "mezuniyet belgesi nereden alınır",
+            "mezuniyet belgesi işlemleri",
+            "mezuniyet belgesi talebi"
+          ],
+          "response": "Mezuniyet belgenizi öğrenci işleri biriminden veya online öğrenci bilgi sisteminden alabilirsiniz."
+        },
+        "mezuniyet belgeleri": {
+          "keywords": ["mezuniyet belgeleri", "mezuniyet için gerekli belgeler"],
+          "response": "Mezuniyet için genellikle transkript, öğrenci kimliği ve başvuru formu gereklidir. Fakülte sekreterliğiyle iletişime geçin."
+        }
+      }
+    },
+    "ders kayıt": {
+      "context": "Ders kayıt işlemleriyle ilgili bilgiler",
+      "alt_konular": {
+        "ders programı değişiklikleri takibi": {
+          "keywords": [
+            "ders programı değişiklikleri nasıl takip edilir",
+            "ders programı güncellemeleri",
+            "program değişikliklerini nasıl öğrenebilirim"
+          ],
+          "response": "Ders programı değişikliklerini üniversitenizin öğrenci bilgi sistemi veya ilgili fakülte duyuruları üzerinden takip edebilirsiniz."
+        },
+        "çift anadal başvurusu": {
+          "keywords": [
+            "çift anadal başvurusu",
+            "çift anadal başvuru şartları",
+            "çift diploma anadal"
+          ],
+          "response": "Çift anadal başvurusu için transkript, başvuru formu ve danışman onayı gereklidir. Üniversitenizin yönergelerini kontrol edin."
+        },
+        "çift anadal": {
+          "keywords": [
+            "çift anadal",
+            "çift anadal başvurusu",
+            "çift diploma programı"
+          ],
+          "response": "Çift anadal başvurusu için transkript, başvuru formu ve danışman onayı gereklidir. Üniversitenizin yönergelerini kontrol edin."
+        },
+        "ders kaydı yaparken hata alıyorum": {
+          "keywords": [
+            "ders kaydı yaparken hata alıyorum",
+            "ders kaydı hatası",
+            "kayıt işlemi sırasında hata"
+          ],
+          "response": "Ders kaydı sırasında hata alıyorsanız öğrenci bilgi sistemi destek hattına başvurabilir veya akademik danışmanınızla iletişime geçebilirsiniz."
+        },
+        "Ders seçimi işlemleri": {
+          "keywords": [
+            "ders kaydı",
+            "ders kayıt işlemleri",
+            "kayıt yenileme"
+          ],
+          "response": "Ders kayıt işlemleri akademik takvimde belirtilen tarihlerde öğrenci bilgi sistemi üzerinden yapılır. Danışman onayı gereklidir."
+        },
+        "yaz okulu kaydı": {
+          "keywords": ["yaz okulu", "yaz okulu kaydı", "yaz dönemi dersleri"],
+          "response": "Yaz okulu kaydı için öğrenci bilgi sistemine giriş yaparak açılan derslere kayıt olabilirsiniz. Ücret bilgileri fakülte sekreterliğinden alınabilir."
+        },
+        "uzaktan_egitim_platformu": {
+          "keywords": [
+            "uzaktan eğitim platformuna nasıl erişirim",
+            "uzaktan eğitim platformu erişim bilgileri",
+            "uzaktan eğitim platformu giriş"
+          ],
+          "response": "Uzaktan eğitim platformuna erişim bilgileriniz, öğrenci bilgi sistemindeki e-posta adresinizle bağlantılıdır. Giriş bilgileriniz için üniversitenizin ilgili birimiyle iletişime geçiniz."
+        }
+      }
+    },
+    "staj": {
+      "context": "Stajla ilgili bilgiler",
+      "alt_konular": {
+        "staj için zorunluluk belgesi": {
+          "keywords": [
+            "staj için zorunluluk belgesi",
+            "zorunlu staj belgesi",
+            "staj zorunluluk yazısı"
+          ],
+          "response": "Staj için zorunluluk belgesini öğrenci işlerinden veya staj koordinatörünüzden talep edebilirsiniz. Bazı üniversitelerde online sistem üzerinden de indirilebilir."
+        },
+        "staj belgeleri": {
+          "keywords": [
+            "staj belgeleri",
+            "staj teslimi",
+            "staj süreci"
+          ],
+          "response": "Staj belgelerinizi öğrenci işleri birimine veya staj koordinatörüne teslim etmeniz gerekmektedir."
+        },
+        "staj işlemleri": {
+          "keywords": [
+            "staj teslimi",
+            "zorunlu staj belgelerinizi",
+            "staj koordinatörü"
+          ],
+          "response": "Staj belgelerinizi staj koordinatörüne veya öğrenci işlerine teslim etmeniz gereklidir. Detaylar staj yönergesinde belirtilmiştir."
+        }
+      }
+    },
+    "genel_islemler": {
+      "context": "Genel işlemlerle ilgili bilgiler",
+      "alt_konular": {
+  
+        "kayıt sildirme işlemleri": {
+          "keywords": [
+            "kayıt sildirme işlemleri nasıl yapılır",
+            "kayıt sildirme",
+            "üniversite kaydı nasıl silinir"
+          ],
+          "response": "Kayıt sildirme işlemleri için öğrenci işlerine dilekçe ile başvuru yapmanız ve kimlik belgenizle şahsen gitmeniz gerekmektedir. Bazı üniversitelerde online başvuru imkanı da sunulabilir."
+        },
+        "kayıp eşya bürosu": {
+          "keywords": [
+            "kampüste kayıp eşya bürosu var mı",
+            "kayıp eşya bürosu nerede",
+            "kayıp eşya nasıl bulunur"
+          ],
+          "response": "Kampüsünüzde kayıp eşya bürosu varsa, genellikle güvenlik birimi veya öğrenci işleri bünyesinde bulunmaktadır. Detaylı bilgi için kampüs güvenlik ofisiyle iletişime geçebilirsiniz."
+        },
+        "çift diploma başvuru şartları": {
+          "keywords": [
+            "çift diploma programlarına başvuru şartları nelerdir",
+            "çift diploma başvuru şartları",
+            "çift diploma nasıl yapılır"
+          ],
+          "response": "Çift diploma programlarına başvuru için genel şartlar, belirli bir not ortalamasına sahip olmak, yeterlilik sınavlarına girmek ve ilgili başvuru formlarını tamamlamaktır. Detaylı bilgi için bölüm sekreterliği veya uluslararası ofisle iletişime geçin."
+        },
+        "kütüphane erişim bilgileri": {
+          "keywords": [
+            "üniversitenin kütüphane erişim bilgilerine nasıl ulaşırım",
+            "kütüphane bilgileri",
+            "kütüphane erişim bilgileri"
+          ],
+          "response": "Üniversitenizin kütüphane erişim bilgilerine öğrenci bilgi sisteminden veya üniversitenizin kütüphane web sayfasından ulaşabilirsiniz. Giriş için genellikle öğrenci mail adresiniz ve şifreniz gerekmektedir."
+        },
+        "burs başvuru sonuçları": {
+          "keywords": [
+            "burs başvuru sonuçları ne zaman açıklanır",
+            "burs sonuçları ne zaman belli olur",
+            "burs başvuru sonucu",
+            "burs"
+          ],
+          "response": "Burs başvuru sonuçları genellikle başvuru süresi bittikten 2-4 hafta içinde açıklanır. Kesin tarih için üniversitenizin burs ofisi duyurularını kontrol edebilirsiniz."
+        },
+  
+        "staj olanakları": {
+          "keywords": [
+            "üniversitedeki staj olanaklarını nereden öğrenebilirim",
+            "staj imkanları nerede",
+            "staj olanakları hakkında"
+          ],
+          "response": "Üniversitedeki staj olanakları hakkında bilgi almak için kariyer merkezi, staj koordinatörünüz veya bölüm sekreterliğiyle iletişime geçebilirsiniz. Ayrıca, duyurular ve öğrenci bilgi sistemi üzerinden de kontrol edebilirsiniz."
+        },
+        "öğrenci destek hizmetleri": {
+          "keywords": [
+            "öğrenci destek hizmetlerinden nasıl faydalanabilirim",
+            "öğrenci destek hizmetleri",
+            "destek hizmetleri nasıl alınır"
+          ],
+          "response": "Öğrenci destek hizmetlerinden faydalanmak için üniversitenizin rehberlik ve danışmanlık birimine başvurabilirsiniz. Ayrıca, destek hizmetleri hakkında bilgi almak için öğrenci bilgi sistemini ve duyuruları kontrol edebilirsiniz."
+        },
+        "yaz okulu ders seçimi": {
+          "keywords": [
+            "yaz okulu ders seçimi nasıl yapılır",
+            "yaz okulu kayıt işlemleri",
+            "yaz okulu ders seçimi"
+          ],
+          "response": "Okulumuzda yaz okulu bulunmamaktadır. Ancak, başka üniversitelerin yaz okulu programlarına başvuru yapabilirsiniz. Detaylı bilgi için bölüm sekreterliğiyle iletişime geçin."
+        },
+        "giriş belgeleri eksikse yapılacaklar": {
+          "keywords": [
+            "üniversiteye giriş belgelerim eksikse ne yapmam gerekiyor",
+            "giriş belgeleri eksik",
+            "üniversite giriş belgeleri tamamlanması"
+          ],
+          "response": "Üniversiteye giriş belgeleriniz eksikse, en kısa sürede öğrenci işlerine başvurarak eksik belgeleri teslim edebilirsiniz. Eksik belgelerle ilgili ek süre talep edebilmek için fakülte sekreterliğiyle iletişime geçin."
+        },
+        "danışman hocam kimdir": {
+          "keywords": [
+            "kayıtlı olduğum bölümde danışman hocam kimdir",
+            "danışman hocam kimdir",
+            "danışman öğretim üyesi kimdir"
+          ],
+          "response": "Kayıtlı olduğunuz bölümdeki danışman hocanız Öğr. Gör. Erdem Yücesan'dır. Detaylı bilgi için bölüm sekreterliğiyle iletişime geçebilirsiniz."
+        },
+        "akademik takvim değişiklikleri": {
+          "keywords": [
+            "akademik takvimde değişiklik olursa nereden öğrenebilirim",
+            "akademik takvim değişiklikleri",
+            "takvim değişikliği nasıl öğrenilir"
+          ],
+          "response": "Akademik takvimdeki değişiklikler, üniversitenizin resmi web sitesi, öğrenci bilgi sistemi veya fakülte duyuruları üzerinden paylaşılır. Düzenli olarak bu platformları kontrol etmeniz önerilir."
+        },
+        "üniversite mail adresi ve şifresi": {
+          "keywords": [
+            "üniversite mail adresi nasıl alınır",
+            "üniversite mail şifresi nasıl alınır",
+            "üniversite mail adresi ve şifresi"
+          ],
+          "response": "Üniversite mail adresi ve şifresi, genellikle kayıt sonrası öğrenci bilgi sisteminizde tanımlanır. Şifreyi almadıysanız veya unuttuysanız IT birimine başvurabilirsiniz."
+        },
+        "kayıt yenileme eksik belgeler": {
+          "keywords": [
+            "kayıt yenilemede eksik belgeleri nasıl tamamlarım",
+            "eksik belgeler nasıl tamamlanır",
+            "kayıt yenileme eksik belge"
+          ],
+          "response": "Kayıt yenileme işlemi sırasında eksik belgeleriniz varsa, öğrenci işlerine başvurarak gerekli belgeleri teslim edebilir veya online sistem üzerinden yükleyebilirsiniz. Detaylar için fakülte duyurularını kontrol ediniz."
+        },
+        "yurt kaydı ve yurt başvurusu nasıl yapılır": {
+          "keywords": [
+            "yurt kaydı ve yurt başvurusu nasıl yapılır",
+            "yurt kaydı nasıl yapılır",
+            "yurt başvurusu nasıl yapılır",
+            "yurt kaydı ve yurt başvurusu nasıl yapılır?",
+            "YURT KAYDI VE YURT BAŞVURUSU NASIL YAPILIR"
+          ],
+          "response": "İstanbul Kültür Üniversitesi’nde yurt kaydı ve başvurusu, genellikle okulun web sitesi üzerinden yapılmaktadır. Başvurular, akademik yılın başından önce duyurulur ve gerekli bilgilerin yer aldığı başvuru formu doldurulur. Başvurunuz onaylandıktan sonra yurt ücreti ödemesi yapılır ve kaydınız tamamlanır. Yurt kaydı sırasında kimlik fotokopisi, öğrenci belgesi gibi belgeler talep edilebilir. Yurt kayıt işleminiz tamamlandığında, size yurt odası ve anahtarınız verilir. Başvuru ve kayıt süreciyle ilgili detayları İstanbul Kültür Üniversitesi’nin resmi sitesinden takip edebilirsiniz."
+        },
+        "mezuniyet töreni kaydı": {
+          "keywords": [
+            "mezuniyet töreni için kayıt gerekiyor mu",
+            "mezuniyet töreni kaydı",
+            "törene katılım için kayıt"
+          ],
+          "response": "Mezuniyet törenine katılım için genellikle üniversitenizin belirlediği tarihlerde online veya öğrenci işleri üzerinden kayıt yaptırmanız gerekmektedir. Detaylar için fakülte duyurularını kontrol edebilirsiniz."
+        },
+        "öğrenci kimlik kartı imkanları": {
+          "keywords": [
+            "öğrenci kimlik kartımla hangi imkanlardan faydalanabilirim",
+            "öğrenci kimlik kartı avantajları",
+            "kimlik kartıyla neler yapabilirim"
+          ],
+          "response": "Öğrenci kimlik kartınızla kampüs içindeki kütüphane, yemekhane, spor salonu gibi imkanlardan faydalanabilir ve toplu taşıma indirimleri gibi öğrenci avantajlarından yararlanabilirsiniz."
+        },
+         "öğrenci indirimi belgeleri": {
+          "keywords": [
+            "öğrenci indirimi için gerekli belgeleri nereden alabilirim",
+            "öğrenci indirimi belgeleri",
+            "öğrenci belgesi nasıl alınır"
+          ],
+          "response": "Öğrenci indirimi için gerekli belgeleri, öğrenci bilgi sistemi üzerinden öğrenci belgesi olarak talep edebilir veya öğrenci işlerinden onaylı belge alabilirsiniz."
+        },
+        "erasmus veya değişim programlarına başvuru": {
+          "keywords": [
+            "erasmus başvurusu nasıl yapılır",
+            "değişim programlarına nasıl başvurabilirim",
+            "erasmus ve değişim programları başvuru"
+          ],
+          "response": "Erasmus veya diğer değişim programlarına başvurmak için üniversitenizin Uluslararası İlişkiler Ofisi’ne başvurabilir ve başvuru tarihlerini kontrol edebilirsiniz. Genellikle dil yeterlilik sınavına katılmanız ve gerekli belgeleri teslim etmeniz gerekmektedir."
+        },
+        "sağlık raporu gerektiren durumlar": {
+          "keywords": [
+            "sağlık raporu gerektiren durumlarda ne yapmam gerekiyor",
+            "sağlık raporu nasıl alınır",
+            "sağlık raporu gereklilikleri"
+          ],
+          "response": "Sağlık raporu gerektiren durumlarda, aile hekiminize veya üniversitenizin sağlık birimine başvurarak rapor talep edebilirsiniz. Bazı durumlarda, devlet hastanelerinden alınan raporlar istenebilir."
+        },
+        "öğrenci kulüplerine üyelik": {
+          "keywords": ["öğrenci kulüplerine nasıl üye olabilirim", "kulüp üyeliği", "öğrenci kulüpleri üyelik"],
+          "response": "Öğrenci kulüplerine üye olmak için kulüp etkinlikleri sırasında başvuru yapabilir veya öğrenci işleri biriminden kulüp iletişim bilgilerini alarak başvuru formu doldurabilirsiniz."
+        },
+        "katkı payı iadesi talebi": {
+          "keywords": [
+            "katkı payı iadesi nasıl talep edilir",
+            "katkı payı iadesi",
+            "katkı iadesi başvuru"
+          ],
+          "response": "Katkı payı iadesi için öğrenci işlerine dilekçe ile başvurarak talepte bulunabilirsiniz. Bazı üniversitelerde online başvuru sistemi de kullanılmaktadır. Detaylar için fakülte sekreterliğine danışabilirsiniz."
+        },
+        "askerlik_tecil_belgesi_temini": {
+          "keywords": [
+            "askerlik belgesi nasıl alınır",
+            "askerlik tecil belgesi nasıl alınır",
+            "askerlik erteleme belgesi temini",
+            "askerlik tecil belgesi nereden alınır",
+            "askerlik tecil işlemi",
+            "askerlik durumu belgesi"
+          ],
+          "response": "Askerlik tecil belgesini e-Devlet üzerinden alabilirsiniz. T.C. kimlik numaranız ve şifrenizle giriş yaptıktan sonra 'Askerliğim' hizmetinden belgelerinize erişebilirsiniz."
+        },
+        "ikinci_ogretim_harc_odemesi": {
+          "keywords": [
+            "ikinci öğretim harç ödemesi ne zaman yapılır",
+            "ikinci öğretim harç ödeme tarihleri",
+            "harç ödemesi zamanı"
+          ],
+          "response": "İkinci öğretim harç ödemeleri kayıt veya kayıt yenileme dönemlerinde yapılır. Kesin tarihler için üniversitenizin akademik takvimini kontrol ediniz."
+        },
+        "sinav_sonuclarina_itiraz": {
+          "keywords": [
+            "sınav sonuçlarına nasıl itiraz edebilirim",
+            "sınav sonucu itiraz",
+            "sınav notu itiraz"
+          ],
+          "response": "Sınav sonuçlarına itiraz için ilgili fakülteye dilekçe verebilir veya öğrenci bilgi sistemi üzerinden itiraz formu doldurabilirsiniz. Süreleri akademik takvimden öğrenin."
+        },
+        "devamsizlik_durumu_ogrenme": {
+          "keywords": [
+            "devamsızlık durumumu nasıl öğrenebilirim",
+            "devamsızlık bilgisi",
+            "devamsızlık sorgulama"
+          ],
+          "response": "Devamsızlık durumunuzu öğrenci bilgi sisteminden veya ders sorumlusundan öğrenebilirsiniz."
+        },
+        "iletisim_bilgileri_guncelleme": {
+          "keywords": [
+            "iletişim bilgilerini nasıl güncelleyebilirim",
+            "telefon numaramı değiştirmek istiyorum",
+            "e-posta adresimi nasıl güncellerim"
+          ],
+          "response": "İletişim bilgilerinizi öğrenci bilgi sistemi veya öğrenci işleri üzerinden güncelleyebilirsiniz. Detaylar için üniversitenize danışınız."
+        },
+        "kimlik_karti_kaybi": {
+          "keywords": [
+            "kimlik kartımı kaybettim",
+            "öğrenci kimlik kartı kaybı",
+            "kimlik kartı yenileme"
+          ],
+          "response": "Kimlik kartı kaybı durumunda öğrenci işlerine dilekçe vererek yeni kart ücretini ödemeniz gerekmektedir."
+        },
+        "ogrenci_kimlik_karti_yenileme": {
+          "keywords": [
+            "öğrenci kimlik kartı",
+            "kimlik kartı yenileme",
+            "öğrenci kartı kayıp"
+          ],
+          "response": "Öğrenci kimlik kartınızı yenilemek için öğrenci işlerine dilekçe verip yeni kart ücreti ödemeniz gerekebilir."
+        },
+        "kayit_dondurma_islemleri": {
+          "keywords": [
+            "kayıt dondurma işlemleri",
+            "kayıt dondurma nasıl yapılır",
+            "kayıt dondurma"
+          ],
+          "response": "Kayıt dondurma işlemleri için öğrenci işlerine dilekçe verip gerekli belgeleri sunmanız gereklidir. Detaylı bilgi için fakülte sekreterliğine danışınız."
+        },
+        "harc_ucretini_nasil_odeyebilirim": {
+          "keywords": [
+            "harç ücretini nasıl ödeyebilirim",
+            "harç ödeme yöntemi",
+            "harç ödemesi"
+          ],
+          "response": "Harç ücretlerinizi öğrenci bilgi sistemi üzerinden online ödeyebilir veya anlaşmalı bankalardan ödeme yapabilirsiniz."
+        },
+        "harc_ucretleri": {
+          "keywords": ["harç ücretleri", "harç ödeme", "harç tarihleri"],
+          "response": "Harç ücretlerinizi ve tarihlerini öğrenci bilgi sisteminden öğrenebilir veya öğrenci işlerinden bilgi alabilirsiniz."
+        }
+      }
+    }
+  }
+  

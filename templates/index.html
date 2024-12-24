@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            IkuChat's
+        </div>
+        <button id="new-chat-btn" class="new-chat-button">New chat</button>
+
+    </div>
+
+    <div class="ortala">
+        <div class="chat-container">
+            <div id="chat" class="chat-box"></div>
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="uygulamaya ileti gönder">
+                <button id="send-btn"><i class="fas fa-arrow-up"></i></button>
+            </div>
+            <div class="coppy">Uygulamamız hata yapabilir. Önemli bilgileri kontrol edin.</div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            const chatHistoryKey = "chatHistory";
+
+            // Yüklendiğinde geçmiş konuşmaları göster
+            loadChatHistory();
+
+            $("#send-btn").click(function () {
+                sendMessage();
+            });
+
+            $("#user-input").keypress(function (event) {
+                if (event.key === "Enter") {
+                    sendMessage();
+                }
+            });
+
+            $("#new-chat-btn").click(function () {
+                if (confirm("Yeni bir sohbet başlatmak istediğinize emin misiniz? Mevcut konuşmalar silinecek.")) {
+                    localStorage.removeItem(chatHistoryKey);
+                    $("#chat").empty();
+                }
+            });
+
+            function sendMessage() {
+                const userInput = $("#user-input").val();
+                if (userInput.trim() !== "") {
+                    const userMessage = $("<div>")
+                        .addClass("user-message")
+                        .text(userInput);
+                    $("#chat").append(userMessage);
+
+                    saveChatHistory();
+
+                    $("#user-input").val(""); // Input alanını temizle
+                    scrollToBottom();
+
+                    // Yanıt için AJAX isteği
+                    $.ajax({
+                        type: "POST",
+                        url: "/get_response",
+                        data: { user_input: userInput },
+                        success: function (data) {
+                            const assistantMessage = $("<div>")
+                                .addClass("assistant-message")
+                                .text("");
+                            $("#chat").append(assistantMessage);
+
+                            typeEffect(assistantMessage, data.response, 15);
+                        },
+                    });
+                }
+            }
+
+            function typeEffect(element, text, speed) {
+                let i = 0;
+                const interval = setInterval(function () {
+                    if (i < text.length) {
+                        element.text(element.text() + text.charAt(i));
+                        i++;
+                        setTimeout(() => scrollToBottom(), speed);
+                    } else {
+                        clearInterval(interval);
+                        saveChatHistory();
+                    }
+                }, speed);
+            }
+
+            function scrollToBottom() {
+                const chatBox = $("#chat");
+                chatBox.scrollTop(chatBox[0].scrollHeight);
+            }
+
+            function saveChatHistory() {
+                const chatContent = $("#chat").html();
+                localStorage.setItem(chatHistoryKey, chatContent);
+            }
+
+            function loadChatHistory() {
+                const savedChat = localStorage.getItem(chatHistoryKey);
+                if (savedChat) {
+                    $("#chat").html(savedChat);
+                }
+            }
+        });
+
+
+        $(document).ready(function () {
+    // Sohbet pozisyonunu saklamak için key belirliyoruz
+    const scrollPositionKey = "chat_scroll_position";
+
+    // Sayfa yüklendiğinde kaydırma pozisyonunu geri yükle
+    const savedScrollPosition = localStorage.getItem(scrollPositionKey);
+    if (savedScrollPosition) {
+        $("#chat").scrollTop(parseInt(savedScrollPosition));
+    }
+
+    // Kaydırma olduğunda pozisyonu kaydet
+    $("#chat").on("scroll", function () {
+        localStorage.setItem(scrollPositionKey, $("#chat").scrollTop());
+    });
+
+    // Gönderme ve diğer işlemleri içeren önceki kodlar burada...
+});
+    </script>    
+</body>
+</html>
